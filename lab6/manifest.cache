@@ -1,0 +1,24 @@
+CACHE MANIFEST:
+../index.html
+../contact.html
+../feedback.html
+../admin.html
+../news.html
+../programm.html
+
+../CSS/bootstrap.css
+../CSS/style.css
+
+../images/me.png
+../images/me2.png
+../images/me3.png
+
+../JS/bootstrap.min.js
+
+NETWORK:
+../lit.html
+../lab.html
+
+FALLBACK:
+../error.html
+
