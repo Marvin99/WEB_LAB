@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+ <html lang="en" manifest="cache/Manifest.cache">
+<head>
+	<title>Адмін</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<style>
+	           body  {
+	           font-family: 'Pangolin', cursive;
+             background-color: #FFFFFF;
+
+	            }
+
+	            h3 {
+	            text-align: center;
+	            color:#000000;
+	            font-size: 150%;
+	            }
+
+	            p {
+	               color: #696969;
+	               font-size: 150%;
+	               text-align: left;
+	            }
+
+	            strong {
+	            color: #000000;
+	            }
+	            .panel-footer {
+	            text-align: center;
+              color: #FFFFFF;
+              background-color: #000000;
+	            }
+							 body { background: url(http://365psd.ru/images/backgrounds/bg-lightl-884.jpg); }
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#">Marvin Inc.</a>
+			</div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="index.html">Головна</a>
+					</li>
+				   <li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Студентам<span class="caret"></span></a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="programm.html">Програма</a>
+							</li>
+
+							<li>
+								<a href="lab.html">Лабораторні</a>
+							</li>
+
+							<li>
+								<a href="lit.html">Література</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="feedback.html">Відгуки</a>
+					</li>
+					<li>
+					 <a href="news.html">Новини</a>
+					</li>
+					<li>
+						<a href="contact.html">Контакти</a>
+					</li>
+				  <li class="active">
+						<a href="admin.html">Адмін</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+	<center><h1>Додати новину</h1></center>
+	<br>
+	<div class="row">
+		<div class="col">
+			<div class="form-group">
+					<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					<small id="fileHelp" class="form-text text-muted">Вибрати фото статті.</small>
+			</div>
+			<br>
+		</div>
+    <div class="col">
+				<div class="form-group">
+					<input class="form-control" type="text" id="header" placeholder="Заголовок...">
+					<br>
+					<textarea class="form-control" rows="3" id="shortText" placeholder="Короткий опис статті..."></textarea>
+					<br>
+					<textarea class="form-control" rows="6" id="newsText" placeholder="Стаття..."></textarea>
+				</div>
+				<button class="btn btn-primary float-right" type="submit" onclick="addNews()">Відправити</button>
+			</div>
+ 		</div>
+    <script src="js/news.js"></script>
+  	<script src="js/jquery-3.2.1.slim.min.js"></script>
+  	<script src="js/popper.min.js"></script>
+  	<script src="js/bootstrap.js"></script>
+ 		</body>
+		 </body>
+		 </html>
