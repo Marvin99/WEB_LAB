@@ -4,7 +4,7 @@
  
  -node server.js
  
- send get/post request to localhost:8080/api/bears
+ send get/post request to localhost:3001/api/bears
  
  get post data ( by field longdescription,shortdescription,title)
  
